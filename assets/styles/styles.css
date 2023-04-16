@@ -9,13 +9,14 @@
     --error-color: #EA0000;
     --main-background-color : #f8f9fa;
     --light-background-color : #fbfbfb;
-    --default-font : Roboto, sans-serif;
-    --primary-font : Roboto Condensed, sans-serif;
+    --default-font : 'Inconsolata', monospace;
+    --primary-font : 'Inconsolata', monospace;;
     --secondary-font : Roboto, sans-serif;
     --default-font-size: 16px;
 }
 
 /* Typography Starts here */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
 *,
 html,
 body {
@@ -146,6 +147,7 @@ p {
 
 /* Typography Ends here */  
 
+
 /* #hau(h1e97f7dfeeafd) #css starts */
 .headerh1e97f7dfeeafd .navbar-light .navbar-nav .nav-link{
     color: #48494D;
@@ -162,3 +164,41 @@ p {
         color: #000000
     }
 /* #hau(h1e97f7dfeeafd) #css ends */
+
+/* #anru(h4979acb94d1e7) #css starts  */
+.abouth49acb94d1e7 .DescriptionHeading {
+    color: #000000;
+        font-size: 50px
+    }
+
+    .abouth49acb94d1e7 .DescriptionPara {
+        font-weight: 500;
+        font-size: 18px
+    }
+    
+    .abouth49acb94d1e7 .descriptionImage img{
+        margin-top: -20px;
+        height: 600px;
+        width: 500px
+    }
+    .abouth49acb94d1e7 .fa-play-circle{
+        font-size: 40px;
+        color: #AEDAC9
+    }
+    .abouth49acb94d1e7 .knowMore{
+        font-weight: bold;
+        margin-top: 7px;
+        margin-left: 8px
+    }
+    .abouth49acb94d1e7 .Get{
+        font-weight: 700
+    }
+    .abouth49acb94d1e7 .help{
+        font-family: 'Inconsolata', monospace
+    }
+  
+.abouth49acb94d1e7 .Watch{
+    margin-top: 15px
+}    
+
+/* #anru(h4979acb94d1e7) #css ends  */
