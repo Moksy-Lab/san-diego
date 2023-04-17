@@ -9,14 +9,15 @@
     --error-color: #EA0000;
     --main-background-color : #f8f9fa;
     --light-background-color : #fbfbfb;
-    --default-font : Roboto, sans-serif;
-    --primary-font : Roboto, sans-serif;
-    --secondary-font : Roboto, sans-serif;
+    --default-font : 'Montserrat', sans-serif;
+    --primary-font : 'Montserrat', sans-serif;
+    --secondary-font : 'Montserrat', sans-serif;
     --default-font-size: 16px;
 }
 
 /* Typography Starts here */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *,
 html,
 body {
