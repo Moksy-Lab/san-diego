@@ -203,14 +203,23 @@ p {
 
 /* #anru(h4979acb94d1e7) #css ends  */
 
-/* preloader starts here*/
-#preloader {
-	background: #f0f8ff url(https://i.ibb.co/dKkMbGW/preloader.gif) no-repeat center
-		center;
-	background-size: 30%;
-	height: 100vh;
-	width: 100%;
-	position: fixed;
-	z-index: 100;
+.loader-wrapper{    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-/* preloader ends here*/
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
