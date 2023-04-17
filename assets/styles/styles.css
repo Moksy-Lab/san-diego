@@ -164,6 +164,10 @@ p {
 .headerh1e97f7dfeeafd .btnBG:hover{   
         color: #000000
     }
+    .headerh1e97f7dfeeafd  .headerAnim{
+        animation: fadeInDown; 
+        animation-duration: 3s
+    }
 /* #hau(h1e97f7dfeeafd) #css ends */
 
 /* #anru(h4979acb94d1e7) #css starts  */
@@ -201,9 +205,13 @@ p {
 .abouth49acb94d1e7 .Watch{
     margin-top: 15px
 }    
-.img-fluid {
+.abouth49acb94d1e7 .img-fluid {
     animation: updown 3s ease infinite
   }
+  .abouth49acb94d1e7 .my-element{
+    animation: fadeInDown; 
+    animation-duration: 1s
+ } 
 /* #anru(h4979acb94d1e7) #css ends  */
 
 /* Define the animation */
@@ -218,11 +226,7 @@ p {
       transform: translateY(0)
     }
   }
-  .my-element{
-    animation: fadeInDown; 
-    animation-duration: 1s
- } 
-    /* Full body animation */
+/* Full body animation */
     .fade-in {
         opacity: 0;
         animation: fadeIn ease 1s;
@@ -237,8 +241,4 @@ p {
           opacity: 1;
         }
       }
-      .headerAnim{
-        animation: fadeInDown; 
-        animation-duration: 3s
-    }
-      /* animation ends */
+/* animation ends */
